@@ -1,0 +1,10 @@
+Object Rextester extends App{
+def loop(n:Int,Prev:Int,Curr:Int):Int =
+{
+   if(n<=0)
+     Prev   
+   else
+     loop(n-1,Curr,Curr+Prev)
+}
+   println(loop(n,0,1))
+}
