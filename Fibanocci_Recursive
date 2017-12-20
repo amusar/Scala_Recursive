@@ -1,3 +1,4 @@
+//Works with Rextester Compiler online 
 Object Rextester extends App{
 def loop(n:Int,Prev:Int,Curr:Int):Int =
 {
